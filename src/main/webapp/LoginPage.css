@@ -1,0 +1,228 @@
+*
+{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header,footer
+{
+    background-color: rgb(11, 11, 66);
+    color: #fff;
+    width: 100%;
+}
+
+footer
+{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+header h2
+{
+    font-size: 30px;
+}
+
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color:  #fff;
+    font-size: 18px;
+    padding: 015px;
+    text-transform: capitalize;
+}
+
+.logodesign
+        {
+            width: 100px;
+            border-radius: 70%;
+            position: absolute;
+            top: 7%;
+            left: 8%;
+            transform: translate(-50%,-50%);
+            padding: 8px;
+            background-position: 100% 100%;
+            transition: 0.5s;
+            cursor:pointer;
+        }
+        
+.logo{
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 2.4rem;
+    text-decoration:none;
+}
+
+nav a:hover
+{
+    color: aquamarine;
+    transition: .4s;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+body{
+  background: #fff;
+  overflow: hidden;
+}
+
+.container{
+  max-width: 500px;
+  padding: 0px 20px;
+  margin: 35px auto;
+}
+.wrapper{
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 7px 7px 7px 7px rgba(101, 91, 240, 0.1);
+}
+.wrapper .title{
+  height: 90px;
+  background: rgb(11, 11, 66);
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form{
+  padding: 30px 25px 25px 25px;
+}
+.wrapper form .row{
+  height: 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.wrapper form .row input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 60px;
+  border-radius: 5px;
+  border: 1px solid #999;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+form .row input:focus{
+  border-color: rgb(11, 11, 66);
+  box-shadow: inset 0px 0px 2px 2px rgb(133, 133, 216);
+}
+form .row input::placeholder{
+  color: #999;
+}
+.wrapper form .row i{
+  position: absolute;
+  width: 47px;
+  height: 100%;
+  color: #fff;
+  font-size: 18px;
+  background: rgb(11, 11, 66);
+  border: 1px solid rgb(11, 11, 66);
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form .pass{
+  margin: -8px 0 20px 0;
+}
+.wrapper form .pass a{
+  color: rgb(11, 11, 66);
+  font-size: 17px;
+  text-decoration: none;
+}
+.wrapper form .pass a:hover{
+  text-decoration: underline;
+}
+.wrapper form .button input{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background: rgb(11, 11, 66);
+  border: 1px solid rgb(11, 11, 66);
+  cursor: pointer;
+}
+form .button input:hover{
+  background: rgb(11, 11, 66);
+}
+.wrapper form .signup-link{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+}
+.wrapper form .signup-link a{
+  color: rgb(11, 11, 66);
+  text-decoration: none;
+}
+form .signup-link a:hover{
+  text-decoration: underline;
+}
+
+.footerContainer
+{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons
+{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a
+{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i
+{
+    font-size: 1em;
+    color: rgb(11, 11, 66);
+    opacity: 0.9;
+}
+
+.socialIcons a:hover
+{
+    background-color: rgb(11, 11, 66);
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i
+{
+    color:#fff;
+    transition: 0.5s;
+}
